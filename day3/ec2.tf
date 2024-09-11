@@ -5,7 +5,7 @@ resource "aws_instance" "newinst" {
     subnet_id = aws_subnet.public.id
     vpc_security_group_ids = [aws_security_group.sgname.id]
     tags = {
-      name= "my-ec2"
+      name= "myec2"
     }
   
 }
