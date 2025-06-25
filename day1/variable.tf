@@ -6,7 +6,7 @@ variable "ami" {
 
 
 variable "instance_type" {
-  description = "inserting instance type to main.tf"
+  description = "inserting instance type to main.tf(refer)"
   type = string
   default = "t2.micro"
 }
